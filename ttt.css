@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    height: 80px;
+    font-size: 60px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background: whitesmoke;
+}
+.mCont{
+   
+    margin-top: 100px;
+    height:800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.outerCont{
+    height: 500px;
+    width: 500px;
+    background:rgb(224, 222, 222);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.innerCont{
+ height: 490px;
+    width: 490px;
+    background:white;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+.game{
+    display: grid;
+    grid-template-columns: repeat(3,164px);
+    grid-template-rows: repeat(3,164px);
+    
+}
+.box{
+    border: 2px solid black;
+    font-size: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.bt-0{
+    border-top: 0;
+}
+.bb-0{
+    border-bottom: 0;
+}
+.bl-0{
+    border-left: 0;
+}
+.br-0{
+    border-right: 0;
+}
+.msgP{
+    font-size: 40px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+ margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#btn{
+
+    font-size: 35px;
+    border-radius: 20px;
+    box-shadow:0 0 3rem rgba(80, 78, 78, 0.993);
+ padding: 5px;
+ 
+}
+.newGame{
+   
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 40px;
+}
+.newBtn{
+     justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#newG{
+    font-size: 35px;
+    padding: 5px;
+    border-radius: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 3rem rgba(15, 15, 15, 0.747);;
+}
+.box.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+.hide{
+    display:none;
+}
+.winMsg{
+    margin-top: 100px;
+}
+.line {
+    height: 30px;
+    width:0;
+    background: #918e8e;
+    position: absolute;
+    border-radius: 40px;
+    transition: all 1s ease-in-out;
+    transform-origin: left;
+    display: none;
+}
+

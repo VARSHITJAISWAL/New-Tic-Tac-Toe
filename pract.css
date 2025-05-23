@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  font-size: 32px;
+  margin-left: 20px;
+}
+
+.box {
+  width: 400px;
+  height: 300px;
+  background-color: #4CAF50;
+  margin-left: 20px;
+  margin-top: 20px;
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: center; /* Horizontal center */
+  align-items: center;     /* Vertical center */
+}
+
+.nested-box {
+  width: 200px;
+  height: 150px;
+  background-color: #ffffff;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 130px; /* Vertically center text inside box (not required for actual layout centering) */
+}
